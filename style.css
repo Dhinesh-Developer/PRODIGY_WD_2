@@ -1,0 +1,47 @@
+body{
+    background-color: magenta;
+
+}
+.main{
+    background-color: grey;
+    width: 60%;
+    margin: 20%;
+    position: absolute;
+    display: inline;
+    justify-content: space-between; 
+}
+.display{
+    background-color: black;
+    color: antiquewhite;
+    justify-content: space-around;
+    display: flex;
+}
+.buttons{
+    background-color: white;
+    color: black;
+    justify-content: space-around;
+    display: flex;
+}
+.buttons button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    justify-content: space-around;
+    display: flex;
+    cursor: pointer;
+    outline: none;
+    font-size: 15px;
+    font-family: "poppins", sans-serif;
+}
+#laps{
+   
+    overflow: auto;
+    padding: 8px;
+    border-radius: 10px;
+    color: aliceblue;
+}
+#laps li{
+    font-size: 10px;
+    font: bold;
+}
